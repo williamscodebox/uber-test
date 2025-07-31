@@ -13,7 +13,7 @@ export default function Index() {
       <Text>Edit app/index.tsx to edit this screen.</Text>
       <View style={{ flex: 1 }}>
         <MapView
-          style={{ flex: 1 }}
+          style={{ width: 200, height: 200 }}
           region={{
             latitude: 43.001,
             longitude: -81.2,
